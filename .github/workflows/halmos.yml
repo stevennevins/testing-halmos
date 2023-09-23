@@ -23,4 +23,4 @@ jobs:
         run: python3 -m pip install --upgrade halmos
 
       - name: Run halmos - check caller
-        run: halmos --function check_caller
+        run: halmos
